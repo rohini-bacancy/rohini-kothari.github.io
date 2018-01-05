@@ -1,0 +1,27 @@
+    1  git branch -d program
+    2  git init
+    3  git remote add origin https://github.com/rohini-bacancy/rohini-bacancy.github.io.git
+    4  cat >profile.txt
+    5  git add profile.txt
+    6  git commit -m "profile.txt commited"
+    7  git push origin master
+    8  git checkout -b profile
+    9  git add .
+   10  git commit -m "All files are commited"
+   11  git push origin profile
+   12  git checkout master
+   13  git merge origin profile
+   14  git merge profile
+   15  git add .
+   16  git status
+   17  git branch
+   18  git merge profile
+   19  git add -A
+   20  git status
+   21  git commit -m "add"
+   22  git push origin master
+   23  git checkout profile
+   24  git add .
+   25  git commit -m "index.html modified"
+   26  git push origin profile
+   27  history>hist.txt
